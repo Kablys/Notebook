@@ -4,7 +4,7 @@
 public class Tests {
     public static void constructorTest(){
         //Test Note
-        String testNote1 = "Make Java Project";
+        String testNote1 = "Make Java Project and stuff";
         String testNote2 = "Stuff";
         Note test1 = new Note(testNote1);
         System.out.println(testNote1.equals(test1.toString()));
