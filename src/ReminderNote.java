@@ -7,5 +7,6 @@ public class ReminderNote extends Note {
     private Calendar reminderDate;
     public ReminderNote(String input) {
         super(input);
+        reminderDate = Calendar.getInstance();
     }
 }
